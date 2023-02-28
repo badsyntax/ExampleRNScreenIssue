@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug iOS Tests",
+      "request": "launch",
+      "runtimeArgs": [
+        "run-script",
+        "detox",
+        "--",
+        "test",
+        "--configuration",
+        "ios.sim.debug"
+      ],
+      "runtimeExecutable": "npm",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    },
+    {
+      "name": "Debug Android Tests",
+      "request": "launch",
+      "runtimeArgs": [
+        "run-script",
+        "detox",
+        "--",
+        "test",
+        "--configuration",
+        "android.emu.debug"
+      ],
+      "runtimeExecutable": "npm",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    }
+  ]
+}

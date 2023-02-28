@@ -1,0 +1,79 @@
+{
+  "javascript.suggestionActions.enabled": false,
+  "typescript.tsc.autoDetect": "off",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "eslint.validate": ["javascript", "typescript"],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.language": "en-GB",
+  "cSpell.words": [
+    "AOSP",
+    "applesimutils",
+    "bootsplash",
+    "ccache",
+    "chevin",
+    "chevinfleet",
+    "codegen",
+    "datetime",
+    "datetimepicker",
+    "endregion",
+    "ENVFILE",
+    "fleetwave",
+    "fontawesome",
+    "fortawesome",
+    "gradlew",
+    "iphonesimulator",
+    "Keychain",
+    "Lngs",
+    "msal",
+    "openapi",
+    "openapim",
+    "PKCE",
+    "pkgs",
+    "pluralrules",
+    "Popover",
+    "pregenerate",
+    "reduxjs",
+    "RNFS",
+    "ROPC",
+    "Serialiser",
+    "tanstack",
+    "Teardown",
+    "xcodebuild",
+    "xcworkspace",
+    "xsmall",
+    "xxlarge",
+    "xxsmall"
+  ],
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.compile.nullAnalysis.mode": "automatic"
+}
